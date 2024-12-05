@@ -1,0 +1,54 @@
+.center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mario-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #FFD700;
+}
+
+
+.menu {
+    background-color: #FF4500; 
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.menu nav ul li {
+    display: inline;
+}
+
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.menu nav ul li a:hover {
+    color: #FFD700; 
+}
+
+body {
+    background-color: rgba(202, 158, 47, 0.705);
+}
+
+h1 {
+    color: blue;
+}
+
+p, ul, li {
+    color: rgb(117, 68, 8);
+}
